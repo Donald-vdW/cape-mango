@@ -18,13 +18,13 @@ const products = [
     description: "Premium quality fresh mangos harvested at peak ripeness from our orchards.",
     images: [
       {
-        src: "public/images/products/fresh-fruit-mango1.jpg",
+        src: "/images/products/fresh-fruit-mango1.jpg",
         alt: "Mango pulp"
       },{
-        src: "public/images/products/fruit-pulp-mango.jpg",
+        src: "/images/products/fruit-pulp-mango.jpg",
         alt: "Mango pulp"
       },{
-        src: "public/images/products/dried-fruit-lemons2.jpg",
+        src: "/images/products/dried-fruit-lemons2.jpg",
         alt: "Dried lemon slices"
       },
     ]
@@ -34,19 +34,19 @@ const products = [
     description: "Naturally dried mango slices, perfect for healthy snacking.",
     images: [
       {
-        src: "public/images/products/dried-fruit-mango1.jpg",
+        src: "/images/products/dried-fruit-mango1.jpg",
         alt: "Dried mango slices"
       },
       {
-        src: "public/images/products/dried-fruit-lemons.jpg",
+        src: "/images/products/dried-fruit-lemons.jpg",
         alt: "Dried lemons"
       },
       {
-        src: "public/images/products/dried-fruit-rolls.jpg",
+        src: "/images/products/dried-fruit-rolls.jpg",
         alt: "Dried fruit rolls"
       },
       {
-        src: "public/images/products/grenadilla.jpg",
+        src: "/images/products/grenadilla.jpg",
         alt: "Fresh grenadilla"
       }
     ]
@@ -57,19 +57,19 @@ const products = [
     images: [
 
       {
-        src: "public/images/products/fruit-pulp-mango2.jpg",
+        src: "/images/products/fruit-pulp-mango2.jpg",
         alt: "Mango pulp products"
       },
       {
-        src: "public/images/products/fruit-pulp-guava.jpg",
+        src: "/images/products/fruit-pulp-guava.jpg",
         alt: "Guava pulp"
       },
       {
-        src: "public/images/products/fruit-pulp-guava2.jpg",
+        src: "/images/products/fruit-pulp-guava2.jpg",
         alt: "Guava pulp products"
       },
       {
-        src: "public/images/products/fresh-mangos.jpg",
+        src: "/images/products/fresh-mangos.jpg",
         alt: "Dried mango pieces"
       },
     ]
@@ -131,31 +131,31 @@ const campActivities = [
 
 const campsiteImages = [
   {
-    src: "public/images/campsite/campsite1.jpg",
+    src: "/images/campsite/campsite1.jpg",
     alt: "Campsite view"
   },
   {
-    src: "public/images/campsite/campsite2.jpg",
+    src: "/images/campsite/campsite2.jpg",
     alt: "Campsite facilities"
   },
   {
-    src: "public/images/campsite/boating1.jpg",
+    src: "/images/campsite/boating1.jpg",
     alt: "Boating view"
   },
   {
-    src: "public/images/campsite/t1.jpg",
+    src: "/images/campsite/t1.jpg",
     alt: "Boating activities"
   },
   {
-    src: "public/images/campsite/fishing.jpg",
+    src: "/images/campsite/fishing.jpg",
     alt: "Fishing at the dam"
   },
   {
-    src: "public/images/campsite/nature.jpg",
+    src: "/images/campsite/nature.jpg",
     alt: "Natural surroundings"
   },
   {
-    src: "public/images/campsite/dogs-welcome.jpg",
+    src: "/images/campsite/dogs-welcome.jpg",
     alt: "Dogs are welcome"
   }
 ];
@@ -369,7 +369,7 @@ function App() {
       <header id="home" className="relative h-screen">
         <div className="absolute inset-0">
           <img 
-            src="public/images/farm/drone.jpg"
+            src="/images/farm/drone.jpg"
             alt="Mango orchard"
             className="w-full h-full object-cover"
           />
